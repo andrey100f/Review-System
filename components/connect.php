@@ -1,9 +1,9 @@
 <?php
     $db_name = "mysql:host=localhost;dbname=review_system";
-    $db_user_name = "root";
+    $db_username = "root";
     $db_password = "@Gabitzuf191002@";
 
-    $connection = new PDO($db_name, $db_user_name, $db_user_password);
+    $connection = new PDO($db_name, $db_username, $db_password);
 
     function create_unique_id() {
         $characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
