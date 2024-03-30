@@ -1,0 +1,17 @@
+/* google font link  */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+/* font awesome cdn link  */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+:root{
+   --main-color:#16a085;
+   --red:#eb4d4b;
+   --orange:#f39c12;
+   --black:#130f40;
+   --light-color:#999;
+   --light-bg:#eee;
+   --white:#fff;
+   --border:.1rem solid rgba(0,0,0,.2);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
