@@ -164,6 +164,60 @@ section {
    color: var(--white);
 }
 
+.account-form form {
+   background: var(--white);
+   box-shadow: var(--box-shadow);
+   padding: 2rem;
+   border: var(--border);
+   border-radius: .5rem;
+   max-width: 50rem;
+   margin: 0 auto;
+}
+
+.account-form form h3 {
+   padding-bottom: 1rem;
+   font-size: 2.5rem;
+   color: var(--black);
+   text-transform: capitalize;
+   text-align: center;
+}
+
+.account-form form p {
+   padding-top: 1rem;
+   font-size: 1.6rem;
+   color: var(--light-color);
+}
+
+.account-form form p span {
+   color: var(--red);
+}
+
+.account-form form .box {
+   width: 100%;
+   border-radius: .5rem;
+   padding: 1.4rem;
+   font-size: 1.8rem;
+   color: var(--black);
+   background-color: var(--light-bg);
+   margin: 1rem 0;
+   border: var(--border);
+}
+
+.account-form form .link {
+   padding: 1rem 0;
+   text-align: center;
+   font-size: 1.8rem;
+   color: var(--light-color);
+}
+
+.account-form form .link a {
+   color: var(--red);
+}
+
+.account-form form .link a:hover {
+   text-decoration: underline;
+}
+
 @media (max-width: 991px) {
    html {
       font-size: 55%;
