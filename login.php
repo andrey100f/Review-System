@@ -64,6 +64,7 @@ if(isset($_POST["submit"])) {
     </section>
 
 
+    <script src="js/script.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://kit.fontawesome.com/1a473c2b75.js" crossorigin="anonymous"></script>
     
