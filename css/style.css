@@ -197,6 +197,14 @@ section {
    padding-bottom: .5rem;
 }
 
+.header .flex .profile .image {
+   height: 7rem;
+   width: 7rem;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: 1.5rem;
+}
+
 .account-form form {
    background: var(--white);
    box-shadow: var(--box-shadow);
@@ -234,6 +242,13 @@ section {
    background-color: var(--light-bg);
    margin: 1rem 0;
    border: var(--border);
+}
+
+.account-form form .image {
+   height: 20rem;
+   width: 100%;
+   object-fit: contain;
+   margin-top: .5rem;
 }
 
 .account-form form .link {

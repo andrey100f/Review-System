@@ -28,6 +28,10 @@
                   $fetch_profile = $select_profile->fetch(PDO::FETCH_ASSOC);
             ?>
 
+            <?php if($fetch_profile["image"] != "") { ?>
+               <img src="uploaded_files/<?= $fetch_profile['image']; ?>" alt="" class="image">
+            <?php }; ?>
+
             <p><?= $fetch_profile["name"]; ?></p>
             <a href="update.php" class="btn">Update Profile</a>
             <a href="components/logout.php" class="delete-btn" onclick="return confirm('Logout from this website?');">Logout</a>
